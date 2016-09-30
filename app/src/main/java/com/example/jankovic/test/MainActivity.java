@@ -1,25 +1,27 @@
 package com.example.jankovic.test;
 
-import android.content.Context;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutCompat;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
     Button btnStart,btnPause;
-    TextView txtTimer;
+    TextView txtTimer, txtAccelero;
     Handler customHandler = new Handler();
     LinearLayout container;
+
+    SensorManager sensorManager;
 
     long startTime=0L,timeInMilliseconds=0L,timeSwapBuff=0L,updateTime=0L;
 
@@ -47,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         btnPause = (Button)findViewById(R.id.btnPause);
         txtTimer = (TextView) findViewById(R.id.timerValue);
         container = (LinearLayout)findViewById(R.id.container);
+        txtAccelero = (TextView) findViewById(R.id.acceleroValue);
 
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,5 +66,41 @@ public class MainActivity extends AppCompatActivity {
                 customHandler.removeCallbacks(updateTimerTheard);
             }
         });
+
+        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+    }
+
+    @Override
+    public void onSensorChanged(SensorEvent event) {
+        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+            // Movement
+            float x = event.values[0];
+            float y = event.values[1];
+            float z = event.values[2];
+            txtAccelero.setText(" x : " + x + "\n y : " + y + "\n z : " + z);
+        }
+
+    }
+
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        // register this class as a listener for the orientation and
+        // accelerometer sensors
+        sensorManager.registerListener(this,
+                sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
+                SensorManager.SENSOR_DELAY_NORMAL);
+    }
+
+    @Override
+    protected void onPause() {
+        // unregister listener
+        super.onPause();
+        sensorManager.unregisterListener(this);
     }
 }
