@@ -3,156 +3,354 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a073025edb3349e655b5731db0497d98f731f0dc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_64dd556923e43d5c1dc3545db6b1888cd8428579\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_15119986cb0342d882bcb3dd3acdb1b79c56bb1f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="eacd2c1286a75e6787eb6af19ea880bd947798af">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_42ed8ece2fc5fb5e145136e4529615439e25ac50\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c8797bfd61ad1ce53781d3bbab00488d2105f67a">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_339fd3d721fe3e2e99565dc2c9261ba1bdc0182c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_a36953b8bd63567f13e48a4ccbf0808ede14525a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_1ddcd815b8222bc31b1b99d6c815bbd8e9062be6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_a4798446eb8c723c72ccc9856183083b9c935e1b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_fbfacd7cc5e98b29ab9127580a0afdd2670db9b1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_d37808feaa945cf8e2ae0899a09492903ae133ee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_5a890681cbb3c9d3374914d1244638bc433ab83f\classes.dex" />
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_d2befe0bcb398892ab9a4bf5f13529f618374c73/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8cffc72565d39be29af10efb245b1c1cdc30d99c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_13f9a1a47a7edc0ea8e970acf04a616d15dcb887\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e048257104277063282e420a3155e40e3f5ef2ad\classes.dex" />
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_66e21c694e6f2d98fc3cd4f78abef78f537432f0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_2b5bce3351438213cb3021bde54ddded1eec40b2\classes.dex" />
+        sha1="bc0de471c6229369ceff2a9b40d3569c35c9a81e">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7828794e64e237417cbf70673395edd136376f5e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d549596c89459e119ce40cfecea2ec250c621454">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bfb4aa65a0fec8c9b2d4a56326d6ddc30eba0871/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8e65437a6f66a6a9d1bd58e1ceaba6399d699301\classes.dex" />
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c7b8a9a5b253e80e1cb8be6b1e185d63b4cda2de/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jankovic\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_e614e26852c6eebc145cdd1518db84ecc2d21355/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_6b3ee4abc228c205176f7e93a9301884d6cc2a6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_d08f6b581a6f88a0203fd51a855822fd0ea449b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_d92011dc27b9d9f93045f2f20ec76cb585a87421/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_89b5b389bba004e62c415b29b3c0bc70032251f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_bf891daa3640f8fa0d0e47e302f1fea896129ab5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_741e5ec5b7a6292edd1c852011804dee173aaf9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_db83e580c609e3ecf4d266c87330fd55c6076bc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f168e27998d010b3b9f8b0717ba766a21335cfeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_c6b555b9bc89aa08eae1f7ebe8b3efb5ddeb0f25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_258d24dae9adaed7bb95581acdb784697fdd390a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_5d4e0ffb1664b78c8fbd13a89ab26843d4a453b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_865f3ac475aa100fde58d59e0df557c0a9d108e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_4d1fcfe6dc5ed0f07c651b7204de0480d180c853/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_92196c142be0419165acc3258bdb15b892aecf58/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_bf13747988b3f66ef32aeeb9c211aeb2b2f8d197/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d464a9e739755b789107fbcdee4f751abe2a5e51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_587085dd143e4434c29d007b2d8888f172f819ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Jankovic\AndroidStudioProjects\Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_10fb2e95a14630ec3eab683541faf5355aade98a\classes.dex" />
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_d01d1e9956335b2d2632e1a77641e0e6cf5dce76/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5bcab99b1fc09ff03351b23552006c67e75eb18c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_086394acd1f5eaa916cd78935813ffea3d66ab33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7ef09cc2ce774c3126ca3ffcb45d00053ebd2b6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_f4db6ac653a72b50b09dd3b8e868462c6934b79e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_add252ca62ff5d179dcb16330d33450ea3931f5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="11c41b697ed442f455c99a78bb23319749c62f1d">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3fa60d283c004d76052041faf236b76b561c0012/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_fa240efd16f5e37acf4f9c59459976d9acbaa991/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_12a8bb23a1e0d80c9daa2fe049c0e9bf6853c45d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e9a7489a53b362c3c34bd63397efaf28865430b5">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_333da59b01325b374b0f1b56744ef31f30c17cc1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_91149cad61e1a413c99e8e14b97764ccabb6b5b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_dadd1c992fca5bc6bea23cfa1164d24bdc41c292/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_1954f9909560c86021fa38bba38b504ae65a636a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/wurfl_v/Git_Valou/keepdef/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_db38a4b4b8ddede3d38577eea39a9fa61ddc04e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_d06068e2463f5267c17f0bd227bffbf9e79dbada/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/wurfl_v/Téléchargements/Stopwatch-sensors/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_da01cdc53fd37a093b35bf37fe011532f08d21d1/classes.dex" />
     </item>
 
 </items>
