@@ -74,14 +74,18 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             public void onClick(View v) {
                 startTime = SystemClock.uptimeMillis();
                 customHandler.postDelayed(updateTimerTheard, 0);
+                btnStart.setVisibility(v.GONE);
+                btnPause.setVisibility(v.VISIBLE);
             }
         });
 
         btnPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                timeSwapBuff += timeInMilliseconds;
+                startTime = SystemClock.uptimeMillis();
                 customHandler.removeCallbacks(updateTimerTheard);
+                btnStart.setVisibility(v.VISIBLE);
+                btnPause.setVisibility(v.GONE);
             }
         });
 
