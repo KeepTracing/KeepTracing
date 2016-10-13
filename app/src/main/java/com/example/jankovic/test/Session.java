@@ -11,6 +11,13 @@ public class Session {
     private long id;
     private String time;
 
+    public Session(long id, String time) {
+        super();
+        this.id = id;
+        this.time = time;
+    }
+
+
     public long getId() {
         return id;
     }
@@ -23,7 +30,7 @@ public class Session {
         return time;
     }
 
-    public void setTime(String comment) {
+    public void setTime(String time) {
         this.time = time;
     }
 

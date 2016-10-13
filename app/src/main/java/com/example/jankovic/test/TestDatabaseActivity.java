@@ -32,6 +32,8 @@ public class TestDatabaseActivity extends ListActivity {
         // éléments dans une ListView
         ArrayAdapter<Session> adapter = new ArrayAdapter<Session>(this,
                 android.R.layout.simple_list_item_1, values);
+        System.out.println("Session fuckg: " + values);
+
         setListAdapter(adapter);
     }
 
@@ -46,7 +48,7 @@ public class TestDatabaseActivity extends ListActivity {
                 String[] sessions = new String[] { "Cool", "Very nice", "Hate it" };
                 int nextInt = new Random().nextInt(3);
                 // enregistrer le nouveau commentaire dans la base de données
-                session = datasource.createSession(sessions[nextInt]);
+                session = datasource.createSession("Test");
                 adapter.add(session);
                 break;
             case R.id.delete:

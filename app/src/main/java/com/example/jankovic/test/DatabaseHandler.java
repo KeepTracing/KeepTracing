@@ -14,12 +14,11 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         public static final String SESSION_TIME = "time";
         public static final String SESSION_DATE = "date";
 
-        public static final String SESSION_TABLE_NAME = "Session";
+        public static final String SESSION_TABLE_NAME = "session";
         public static final String SESSION_TABLE_CREATE =
                 "CREATE TABLE " + SESSION_TABLE_NAME + " (" +
                         SESSION_KEY + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                        SESSION_TIME + " text not null, " +
-                        SESSION_DATE + " DATE);";
+                        SESSION_TIME + " text not null);";
 
         public DatabaseHandler(Context context){
             super(context, SESSION_TABLE_NAME, null, 1);

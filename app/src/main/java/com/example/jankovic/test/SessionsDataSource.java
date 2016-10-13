@@ -34,14 +34,16 @@ public class SessionsDataSource {
         dbHelper.close();
     }
 
-    public Session createSession(String time) {
+    public Session createSession(String session) {
         ContentValues values = new ContentValues();
-        values.put(DatabaseHandler.SESSION_TIME, time);
+        values.put(DatabaseHandler.SESSION_TIME, session);
         long insertId = database.insert(DatabaseHandler.SESSION_TABLE_NAME, null,
                 values);
         Cursor cursor = database.query(DatabaseHandler.SESSION_TABLE_NAME,
                 allColumns, DatabaseHandler.SESSION_KEY + " = " + insertId, null,
                 null, null, null);
+        System.out.println("Session created with string: " + session);
+
         cursor.moveToFirst();
         Session newSession = cursorToSession(cursor);
         cursor.close();
@@ -73,7 +75,7 @@ public class SessionsDataSource {
     }
 
     private Session cursorToSession(Cursor cursor) {
-        Session session = new Session();
+        Session session = new Session(0, null);
         session.setId(cursor.getLong(0));
         session.setTime(cursor.getString(1));
         return session;
