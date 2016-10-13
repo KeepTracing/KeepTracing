@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             int mins = secs / 60;
             int hours = mins / 60;
             secs %= 60;
-            int miliseconds = (int) (updateTime % 100);
+            mins %= 60;
             txtTimer.setText("" + String.format("%02d", hours) + ":" + String.format("%02d", mins) + ":" + String.format("%02d", secs));
             customHandler.postDelayed(this, 0);
         }
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public void validate(View view)
     {
         //Toast.makeText(this.getApplicationContext(), "YEAH !", Toast.LENGTH_LONG).show();
-        startActivity(new Intent(MainActivity.this, TestDatabaseActivity.class));
+        startActivity(new Intent(getApplicationContext(), TestDatabaseActivity.class));
     }
 
     @Override
