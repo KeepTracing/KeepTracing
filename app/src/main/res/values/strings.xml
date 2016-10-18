@@ -2,7 +2,12 @@
     <string name="app_name">KeepTracing</string>
     <string name="btn">GO SQL</string>
     <string name="timer_text">00:00:00</string>
-    <string name="accelerometer_text">Accelerometer :</string>
+    <string name="sauts">Sauts</string>
+    <string name="cpt_sauts">0</string>
+    <string name="temps_air">Temps en l\'air</string>
+    <string name="cpt_temps_air">0</string>
+    <string name="max_saut">Saut le plus haut</string>
+    <string name="cpt_max_saut">0</string>
     <string name="start_text">Start</string>
     <string name="stop_text">Stop</string>
 </resources>

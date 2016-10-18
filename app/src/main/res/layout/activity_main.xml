@@ -33,44 +33,6 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/timerValue"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="13dp"
-        android:id="@+id/body"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp">
-
-        <LinearLayout
-            android:id="@+id/container"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_gravity="left"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:textSize="20sp"
-                android:textColor="#000000"
-                android:text="@string/accelerometer_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:ignore="RtlHardcoded" />
-            <TextView
-                android:id="@+id/acceleroValue"
-                android:layout_gravity="left"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                android:textSize="20sp"
-                android:textColor="#000000"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:ignore="RtlHardcoded" />
-        </LinearLayout>
-    </ScrollView>
-
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -83,18 +45,19 @@
         android:layout_marginTop="16dp"
         android:weightSum="1.0"
         android:gravity="center_horizontal">
+
         <Button
             android:id="@+id/btnStart"
             android:text="@string/start_text"
             android:layout_weight=".6"
             android:layout_width="0dip"
-            android:layout_height="60dp"
             android:background="@android:color/holo_green_dark"
             android:textColor="@android:color/white"
             android:textSize="18sp"
             tools:ignore="ButtonStyle"
             android:visibility="visible"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:layout_height="50dp" />
         <Button
             android:id="@+id/btnPause"
             android:text="@string/stop_text"
@@ -106,6 +69,116 @@
             android:textColor="@android:color/white"
             android:background="@android:color/holo_red_dark"
             tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/acceleroValue"
+        android:layout_gravity="left"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlHardcoded"
+        android:layout_above="@+id/buttons"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="79dp" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/timerValue"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/border_top">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:padding="12dp">
+
+            <TextView
+                android:text="@string/cpt_sauts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+
+            <TextView
+                android:layout_gravity="left"
+                android:textSize="12sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/sauts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded"
+                android:textAllCaps="true"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+            android:background="@drawable/border_left_right"
+            android:padding="12dp">
+
+            <TextView
+                android:text="@string/cpt_temps_air"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+
+            <TextView
+                android:text="@string/temps_air"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:padding="12dp">
+
+            <TextView
+                android:text="@string/cpt_max_saut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="36sp" />
+
+            <TextView
+                android:text="@string/max_saut"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView3"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textColor="@android:color/darker_gray" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </RelativeLayout>
