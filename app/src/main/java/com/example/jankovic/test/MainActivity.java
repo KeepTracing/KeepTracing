@@ -28,7 +28,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
-    Button btnStart, btnPause;
+    Button btnStart, btnPause, btnResume, btnStop;
     TextView txtTimer, txtAccelero;
     Handler customHandler = new Handler();
     LinearLayout container;
@@ -63,8 +63,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnStart = (Button) findViewById(R.id.btnStart);
-        btnPause = (Button) findViewById(R.id.btnPause);
+        btnStart = (Button)findViewById(R.id.btnStart);
+        btnPause = (Button)findViewById(R.id.btnPause);
+        btnResume = (Button)findViewById(R.id.btnResume);
+        btnStop = (Button)findViewById(R.id.btnStop);
         txtTimer = (TextView) findViewById(R.id.timerValue);
         container = (LinearLayout) findViewById(R.id.container);
         txtAccelero = (TextView) findViewById(R.id.acceleroValue);
@@ -76,16 +78,42 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 customHandler.postDelayed(updateTimerTheard, 0);
                 btnStart.setVisibility(v.GONE);
                 btnPause.setVisibility(v.VISIBLE);
+                btnStop.setVisibility(v.VISIBLE);
             }
         });
 
         btnPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                timeSwapBuff+=timeInMilliseconds;
+                customHandler.removeCallbacks(updateTimerTheard);
+                btnPause.setVisibility(v.GONE);
+                btnResume.setVisibility(v.VISIBLE);
+            }
+        });
+
+        btnResume.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 startTime = SystemClock.uptimeMillis();
+                customHandler.postDelayed(updateTimerTheard, 0);
+                btnResume.setVisibility(v.GONE);
+                btnPause.setVisibility(v.VISIBLE);
+            }
+        });
+
+        btnStop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startTime = 0L;
+                timeInMilliseconds = 0L;
+                timeSwapBuff = 0L;
+                updateTime = 0L;
                 customHandler.removeCallbacks(updateTimerTheard);
                 btnStart.setVisibility(v.VISIBLE);
                 btnPause.setVisibility(v.GONE);
+                btnResume.setVisibility(v.GONE);
+                btnStop.setVisibility(v.GONE);
             }
         });
 
