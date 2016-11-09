@@ -4,6 +4,7 @@ import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.TextView;
 
 import com.example.jankovic.test.data.model.Session;
 import com.example.jankovic.test.data.repo.SessionRepo;
@@ -17,6 +18,8 @@ import java.util.Random;
  */
 
 public class TestDatabaseActivity extends ListActivity {
+
+    TextView txtSession;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
