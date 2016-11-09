@@ -20,6 +20,11 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.jankovic.test.data.DBHelper;
+import com.example.jankovic.test.data.DatabaseManager;
+import com.example.jankovic.test.data.model.Session;
+import com.example.jankovic.test.data.repo.SessionRepo;
+
 import org.w3c.dom.Comment;
 
 import java.util.List;
@@ -67,11 +72,20 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         return String.format("%02d:%02d:%02d:%d", hour, minute, second, millis);
     }
 
+    private static Context context;
+    private static DBHelper dbHelper;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("TEEEST");
+
+        context = this.getApplicationContext();
+        dbHelper = new DBHelper();
+        DatabaseManager.initializeInstance(dbHelper);
+
+        final Session session = new Session();
+        SessionRepo sessionRepo = new SessionRepo();
 
         btnStart = (Button)findViewById(R.id.btnStart);
         btnPause = (Button)findViewById(R.id.btnPause);
@@ -132,6 +146,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
+    }
+
+    public static Context getContext(){
+        return context;
     }
 
     @Override

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 
+import com.example.jankovic.test.data.model.Session;
+import com.example.jankovic.test.data.repo.SessionRepo;
 
 import java.util.List;
 import java.util.Random;
@@ -16,17 +18,21 @@ import java.util.Random;
 
 public class TestDatabaseActivity extends ListActivity {
 
-    private SessionsDataSource datasource; //TEST SQL
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        datasource = new SessionsDataSource(this);
-        datasource.open();
+        //SessionRepo sessionRepo = new SessionRepo();
 
-        List<Session> values = datasource.getAllSessions();
+        List<Session> values = SessionRepo.getAllSessions();
+
+        for (int i = 0 ; i < values.size() ; i++){
+            System.out.print("Location - " +values.get(i).getLocation() +
+                    "\nDate - "+values.get(i).getDate() +
+                    "\nduree - "+values.get(i).getDuration() +
+                    "\nLocation - "+values.get(i).getLocation());
+        }
 
         // utilisez SimpleCursorAdapter pour afficher les
         // éléments dans une ListView
@@ -37,9 +43,26 @@ public class TestDatabaseActivity extends ListActivity {
         setListAdapter(adapter);
     }
 
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+
+        datasource = new CommentsDataSource(this);
+        datasource.open();
+
+        List<Comment> values = datasource.getAllComments();
+
+        // use the SimpleCursorAdapter to show the
+        // elements in a ListView
+        ArrayAdapter<Comment> adapter = new ArrayAdapter<Comment>(this,
+                android.R.layout.simple_list_item_1, values);
+        setListAdapter(adapter);
+    }
+
+
     // Sera appelée par l'attribut onClick
     // des boutons déclarés dans main.xml
-    public void onClick(View view) {
+   /* public void onClick(View view) {
         @SuppressWarnings("unchecked")
         ArrayAdapter<Session> adapter = (ArrayAdapter<Session>) getListAdapter();
         Session session = null;
@@ -60,17 +83,6 @@ public class TestDatabaseActivity extends ListActivity {
                 break;
         }
         adapter.notifyDataSetChanged();
-    }
+    }*/
 
-    @Override
-    protected void onResume() {
-        datasource.open();
-        super.onResume();
-    }
-
-    @Override
-    protected void onPause() {
-        datasource.close();
-        super.onPause();
-    }
 }
