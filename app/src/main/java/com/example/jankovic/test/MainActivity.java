@@ -24,6 +24,7 @@ import org.w3c.dom.Comment;
 
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     SensorManager sensorManager;
 
+    float x, y, z;
     long startTime = 0L, timeInMilliseconds = 0L, timeSwapBuff = 0L, updateTime = 0L;
 
     Runnable updateTimerTheard = new Runnable() {
@@ -58,10 +60,18 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         startActivity(new Intent(getApplicationContext(), TestDatabaseActivity.class));
     }
 
+    private static String formatInterval(final long millis) {
+        long second = (millis / 1000) % 60;
+        long minute = (millis / (1000 * 60)) % 60;
+        long hour = (millis / (1000 * 60 * 60)) % 24;
+        return String.format("%02d:%02d:%02d:%d", hour, minute, second, millis);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        System.out.println("TEEEST");
 
         btnStart = (Button)findViewById(R.id.btnStart);
         btnPause = (Button)findViewById(R.id.btnPause);
@@ -105,6 +115,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         btnStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                System.out.println("Le temps: " + formatInterval(startTime));
+                System.out.println("Le x: " + x);
+
                 startTime = 0L;
                 timeInMilliseconds = 0L;
                 timeSwapBuff = 0L;
@@ -125,9 +138,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public void onSensorChanged(SensorEvent event) {
         if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
             // Movement
-            float x = event.values[0];
-            float y = event.values[1];
-            float z = event.values[2];
+             x = event.values[0];
+             y = event.values[1];
+             z = event.values[2];
             txtAccelero.setText(" x : " + x + "\n y : " + y + "\n z : " + z);
         }
 
