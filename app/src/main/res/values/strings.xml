@@ -12,4 +12,8 @@
     <string name="pause_text">Pause</string>
     <string name="resume_text">Reprendre</string>
     <string name="stop_text">Stop</string>
+    <string name="month">Example: Septembre</string>
+    <string name="nb_activities">Example: 2 activites</string>
+    <string name="duration">Temps de sesion: \nexample 00:54:14</string>
+    <string name="nb_jumps">Nb Sauts: \nexample 240</string>
 </resources>
